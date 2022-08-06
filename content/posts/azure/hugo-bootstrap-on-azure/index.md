@@ -1,7 +1,7 @@
 ---
 title: "Create a Hugo site using With Azure Pipelines."
 date: 2022-04-03T23:17:09+03:00
-draft: true
+draft: false
 ---
 ## Goal: Hosting a static site generated using Hugo on Azure
 The entire site and all supporting processes will host in the Microsoft Azure cloud with Azure DevOps. 

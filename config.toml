@@ -1,7 +1,8 @@
 baseURL = 'https://solov.top/'
 languageCode = 'en-us'
 title = 'Day in the Life of a Senior Site Reliability Engineer (SRE)'
-theme = "hugo-theme-learn"
+#theme = "hugo-theme-learn"
+theme = "gohugo-theme-ananke"
 enableRobotsTXT = true
 uglyurls =  true
 disableHugoGeneratorInject = false
@@ -16,9 +17,11 @@ ordered = false
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = false
+
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
+
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]
 [outputFormats.WebAppManifest]
