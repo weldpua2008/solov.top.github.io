@@ -1,8 +1,8 @@
 baseURL = 'https://solov.top/'
 languageCode = 'en-us'
 title = 'Day in the Life of a Senior Site Reliability Engineer (SRE)'
-#theme = "hugo-theme-learn"
-theme = "gohugo-theme-ananke"
+theme = "hugo-theme-learn"
+#theme = "gohugo-theme-ananke"
 enableRobotsTXT = true
 uglyurls =  true
 disableHugoGeneratorInject = false
