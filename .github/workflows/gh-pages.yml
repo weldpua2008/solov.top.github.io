@@ -31,3 +31,4 @@ jobs:
           publish_branch: website
           publish_dir: ./public
           allow_empty_commit: true
+          cname: solov.top
